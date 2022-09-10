@@ -32,7 +32,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AAk-JL-2Ov"/>
+                                    <action selector="didStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZf-tS-tBl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyR-FB-aa7">
@@ -44,7 +44,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="Clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B4q-Li-Szc"/>
+                                    <action selector="didClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="036-Ek-ofK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -59,9 +59,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="buttomSettings" destination="sFr-qL-B1a" id="hVX-5h-8hm"/>
-                        <outlet property="clearButton" destination="ZyR-FB-aa7" id="rhD-b5-ezk"/>
+                        <outlet property="clearCounterButton" destination="ZyR-FB-aa7" id="gwZ-DD-CJQ"/>
                         <outlet property="countLabel" destination="tgN-1i-dIQ" id="ePA-Bf-GHT"/>
+                        <outlet property="startCounterButtom" destination="sFr-qL-B1a" id="1O8-85-DhQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
